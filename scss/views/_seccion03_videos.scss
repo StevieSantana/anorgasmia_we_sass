@@ -1,0 +1,47 @@
+#box_left_video  {
+    display: grid; 
+    
+    justify-items: center;
+   
+   
+    
+
+}
+.video_00:nth-of-type(1) {
+   grid-column: 2 / 4;
+   justify-content: center;
+}
+
+.lne_video:nth-of-type(1){ 
+
+    text-decoration: none;
+    text-decoration-line: none;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 3em;
+    align-items: stretch;
+    
+
+   
+}
+
+
+
+.second_row {
+    grid-row: span 4;
+}
+
+
+
+#box_right_video {
+    display: grid; 
+
+    width: 54rem;
+    height: 60rem;  
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1, 4fr);
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+}
+

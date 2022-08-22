@@ -1,0 +1,56 @@
+footer#footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+
+ul.footer__ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    align-items: center;    
+    width: 17rem;
+    height: 7rem;
+   
+   
+}
+.footer__li {
+    list-style: none;
+    justify-content: space-between;
+    
+}
+
+
+.empty_div_footer {
+    height: 7em;
+    width: 90%;
+}
+
+div#icons {
+    width:24em ;
+}
+
+
+
+li.footer_li{
+    width: 8em;
+    height: 7em;
+    justify-items: flex-start;
+
+}
+
+.contact {
+    color: #FFFFFF;
+    width: 4em;
+    height: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: flex-end;
+    font-family: 'Sue Ellen Francisco', cursive;
+    text-decoration: none;
+}

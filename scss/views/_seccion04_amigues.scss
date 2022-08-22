@@ -1,0 +1,29 @@
+
+#box_left_amigues {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+
+}
+
+.second_row {
+    grid-row: span 4;
+}
+
+
+
+#box_right_amigues {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+    
+
+}

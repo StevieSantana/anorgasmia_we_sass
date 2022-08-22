@@ -1,0 +1,29 @@
+#box_left_musica {
+    display: grid; 
+    width: 54rem;
+    height: 60rem;  
+   
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+   
+    
+
+}
+.otro_martes:nth-of-type(1)  {
+    grid-row: span 4;
+
+
+
+}
+
+
+
+#box_right_musica {
+    display: grid; 
+
+    width: 54rem;
+    height: 60rem;  
+  
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+}
